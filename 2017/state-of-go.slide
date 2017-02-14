@@ -1,14 +1,14 @@
 L'État de Go
 Nous sommes en Février 2017
 
-Présentation originale de 
+Présentation originale de
 Francesc Campoy
 Google Developer Advocate
 @francesc
 campoy@golang.org
 
 Traduite et adaptée par
-Alexendre Jomin et Sébastien Friess
+Alexandre Jomin et Sébastien Friess
 
 * Le temps passe
 
@@ -99,7 +99,7 @@ ARM:
 
 - Go 1.8 est la dernière version supportant les processeurs ARMv5E and ARMv6.
 
-- Go 1.9 n´essitera ARMv6K. Est-ce que Go va fonctionner avec ma platefornme ?
+- Go 1.9 néssitera ARMv6K. Est-ce que Go va fonctionner avec ma platefornme ?
 
     go tool dist -check-armv6k
 
@@ -163,7 +163,7 @@ Exemple:
 
 * Runtime
 
-* Détection des accès concurrent sur les maps 
+* Détection des accès concurrents sur les maps
 
 Amélioration de Go 1.6.
 
@@ -228,13 +228,13 @@ _NB_: Pour le moment les `sync.RWMutex` non sont pas profilés.
 
 Source: [[https://dave.cheney.net/2016/11/19/go-1-8-toolchain-improvements][dave.cheney.net]]
 
-* Les changement de la Bibliothèque Standard
+* Les changements de la Bibliothèque Standard
 
 * Tri
 
 Exercice:
 
-Étant donné une slice de `Person`
+Étant donné un slice de `Person`
 
     var p []Person
 
@@ -326,7 +326,7 @@ HTTP/2
 
 .image state-of-go/img/http2.png _ 800
 
-* Support étendu des contextes 
+* Support étendu des contextes
 
 Depuis Go 1.7:
 
