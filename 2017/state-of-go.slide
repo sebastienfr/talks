@@ -178,7 +178,7 @@ Sortie:
 
 Profilez vos benchmarks et la contention sur vos Mutex.
 
-    go test bench=. -mutexprofile=mutex.out
+    go test -bench=. -mutexprofile=mutex.out
 
 Sinon vous pouvez aussi activer le profiling avec cette nouvelle méthode.
 
